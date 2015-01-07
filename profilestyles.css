@@ -1,0 +1,40 @@
+h1 {
+  font-family: sans-serif;
+  font-style: bold;
+  text-align: center;
+  color: white;
+  background-color: orange;
+}
+
+p.small{
+  font-size: 6pt;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  background-color: #828282;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#wrap {
+  width: 900px;
+}
+
+ul {
+  margin-left: 100px;
+}
+
+
+
+p {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#photo {
+  margin-left: 217px;
+  margin-right: 216px;
+}
