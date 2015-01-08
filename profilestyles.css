@@ -1,40 +1,99 @@
-h1 {
-  font-family: sans-serif;
-  font-style: bold;
-  text-align: center;
-  color: white;
-  background-color: orange;
+body {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-color: #d4d4d4;
+  background-attachment: fixed;
+  margin-bottom: 100px;
 }
-
-p.small{
+nav {
+  position: fixed;
+  left: 0px;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+}
+p.small {
   font-size: 6pt;
   text-align: center;
 }
-
 h3 {
   color: white;
   background-color: #828282;
-  margin-left: 50px;
-  margin-right: 50px;
 }
-
 #wrap {
-  width: 900px;
+  position: relative;
+  width: 1000px;
 }
-
 ul {
   margin-left: 100px;
 }
-
-
-
-p {
-  text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
+.sections {
+  padding: 20px;
 }
-
-#photo {
-  margin-left: 217px;
-  margin-right: 216px;
+img .sections {
+  padding: 20px;
+}
+a:link {
+  text-decoration: none;
+}
+#inner-wrap {
+  margin-left: 200px;
+  text-align: center;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  color: white;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.box {
+  display: inline-block;
+  width: 200px;
+  height: 175px;
+  margin: 1em;
+  border: 1px;
+  border-style: solid;
+}
+.box2 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 1em;
+}
+.box3 {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 1em;
+}
+p {
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+h1 {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 30px;
+  border: 2px;
+  margin: auto;
+  border-style: solid;
+  border-color: black;
+  background: white;
+  height: 40px;
+  width: 200px;
+  font-style: bold;
+  text-align: center;
+  color: orange;
+  vertical-align: center;
+  position: relative;
+}
+.social {
+  align-text: center;
+  max-width: 750px;
+  padding: 5px;
 }
